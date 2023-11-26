@@ -43,7 +43,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login onSubmit={handleLogin}/>} />
+        <Route path="/react-agenda" element={<Login onSubmit={handleLogin}/>} />
         <Route path="/main" element={<MainApp name={name} idUser={id} tasks={tasks} updateTasks={UpdateTasks}/>} />
       </Routes>
     </Router>
